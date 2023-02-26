@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD700"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:text="Tasbih Fatimah"
+            android:textAlignment="center"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="1st kalima 100 Times"
+            android:textAlignment="center"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Astagfar 100 TImes"
+            android:textAlignment="center"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Darood 100 times"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Ayate E Karima 100 Times"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Reset"
+            android:textColor="#FFD700"
+            android:textSize="12sp"
+            android:textStyle="normal|bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Tasbeeh"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="180sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="Count"
+            android:textAlignment="center"
+            android:textColor="#FFD700"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</LinearLayout>
