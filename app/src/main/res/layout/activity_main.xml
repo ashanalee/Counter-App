@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFD700"
+    android:background="@drawable/tasbeeh"
     android:orientation="vertical"
     android:weightSum="8"
     tools:context=".MainActivity">
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:text="Select Tasbeeh"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#FFD700"
             android:textSize="34sp"
             android:textStyle="bold|italic" />
 
@@ -141,7 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#FFD700"
             android:textSize="180sp"
             android:textStyle="bold|italic" />
     </LinearLayout>
